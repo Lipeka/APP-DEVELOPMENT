@@ -1,0 +1,31 @@
+/* Schedule.css */
+
+.schedule-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .schedule-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .schedule-details {
+    margin-top: 20px;
+  }
+  
+  .schedule-details p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .schedule-details p strong {
+    color: #000;
+  }
+  

@@ -1,0 +1,36 @@
+.student-details-container {
+  padding: 245px;
+  background: darkgray;
+  height: 100%;
+  text-align: center;
+  }
+  
+  .student-details-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .student-details-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-details-container table th,
+  .student-details-container table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .student-details-container table th {
+    background-color: #030303;
+    color: white;
+  }
+  
+  .student-details-container table tr:nth-child(even) {
+    background-color: #f5f1f1;
+  }
+  
+  .student-details-container table tr:hover {
+    background-color: #eae2e2;
+  }
+  

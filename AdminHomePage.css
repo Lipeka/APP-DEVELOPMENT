@@ -1,0 +1,143 @@
+.trainer-homepage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000; /* Black background for the navbar */
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #000; /* Black background for the sidebar */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .sidebar a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    flex-grow: 1;
+    margin-left: 250px;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+  }
+/* .footer {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    text-align: center; */
+    /* position: ; */
+    /* height: fit-content;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the footer content horizontally */
+    /* margin: 0 auto;  */
+    /* box-sizing: border-box; /* Include padding in width */
+/* }
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+/* .footer ul li {
+    margin: 0 15px; */
+/* }
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.registration-details {
+    margin-top: 5px;
+} */
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  /* position: ; */
+  height: fit-content;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the footer content horizontally */
+  /* margin: 0 auto;  */
+  box-sizing: border-box; /* Include padding in width */
+}
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer ul li {
+  margin: 0 15px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.registration-details {
+  margin-top: 5px;
+}
+.trintro{
+  margin-top: 60px; /* Adjust for navbar height */
+    padding: 40px;
+    text-align: left; /* Keep text aligned to the left */
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Distribute space between text and image */
+    align-items: center; /* Center align the text vertically */
+    font-family: "Times New Roman", Times, serif;
+    font-size: x-large;
+    margin-bottom: 25px;
+}
+.trintro img {
+  width: 30%;
+  height: 60vh;
+  border-radius: 8px;
+  margin-left: 20px; /* Add some space between the text and image */
+  align-self: flex-end; /* Align image to the right end */
+}

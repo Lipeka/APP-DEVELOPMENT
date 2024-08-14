@@ -1,0 +1,35 @@
+.trainer-details-container {
+    padding: 170px;
+    background: darkgray;
+    height: 100%;
+    text-align: center;
+    }
+    
+    .trainer-details-container h2 {
+      margin-bottom: 20px;
+    }
+    
+    .trainer-details-container table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    .trainer-details-container table th,
+    .trainer-details-container table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    .trainer-details-container table th {
+      background-color: #0b0c0b;
+      color: white;
+    }
+    
+    .trainer-details-container table tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    
+    .trainer-details-container table tr:hover {
+      background-color: #ddd;
+    }

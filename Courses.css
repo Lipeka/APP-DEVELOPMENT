@@ -1,0 +1,33 @@
+.courses-body{
+  background: url('https://cdnb.artstation.com/p/assets/images/images/011/811/863/large/casey-chretien-chesswallpaper-final.jpg?1531520903') center/cover no-repeat;
+}
+.courses-container {
+  padding: 110px;
+  /* background: url('../images/chess3.jpg') center/cover no-repeat; */
+}
+
+.courses-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.courses-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.course-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.course-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}

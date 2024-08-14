@@ -1,0 +1,119 @@
+.student-homepage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: black;
+}
+.navbar {
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+  .navbar h3 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .navbar .logout-button {
+    margin-left: auto; /* Pushes the button to the right end */
+  }
+  
+  .navbar button {
+    margin: 0; /* Ensure there's no extra margin around the button */
+  }
+  
+  .intro {
+    margin-top: 60px; /* Adjust for navbar height */
+    padding: 40px;
+    text-align: left; /* Keep text aligned to the left */
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Distribute space between text and image */
+    align-items: center; /* Center align the text vertically */
+    font-family: "Times New Roman", Times, serif;
+    font-size: x-large;
+    margin-bottom: 25px;
+
+
+  }
+  
+  .intro img {
+    width: 30%;
+    height: 60vh;
+    border-radius: 8px;
+    margin-left: 20px; /* Add some space between the text and image */
+    align-self: flex-end; /* Align image to the right end */
+  }
+  
+
+.actions {
+    margin: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    /* position: ; */
+    height: fit-content;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the footer content horizontally */
+    /* margin: 0 auto;  */
+    box-sizing: border-box; /* Include padding in width */
+}
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer ul li {
+    margin: 0 15px;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.registration-details {
+    margin-top: 5px;
+}
+.explore-button{
+    display: flex;
+    flex-direction: column;
+}
+.explore{
+    width: fit-content;
+    color: white;
+    background-color: #949494;
+    border: none;
+      /* height: 20px; */
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    gap: 10px;
+    margin-right: 5px;
+
+}

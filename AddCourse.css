@@ -1,0 +1,34 @@
+.add-coursebody{
+  background: url('https://cdnb.artstation.com/p/assets/images/images/011/811/863/large/casey-chretien-chesswallpaper-final.jpg?1531520903') center/cover no-repeat;
+}
+.add-course {
+    background: url('../images/chess3.jpg') center/cover no-repeat; /* White background color for the container */
+    color: black; /* Black color for the text */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+    margin: 0px auto; /* Center the container with auto margin */
+    max-width: 600px; /* Maximum width for the container */
+    padding: 20px; /* Inner padding for content spacing */
+  }
+  
+  .add-course h2 {
+    text-align: center; /* Center the heading text */
+    margin-bottom: 20px; /* Bottom margin for the heading */
+  }
+  
+  .add-course form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spacing between form elements */
+  }
+  
+  .add-course .MuiTextField-root {
+    color: black; /* Ensure text in TextField is black */
+  }
+  
+  .add-course .MuiButton-root {
+    align-self: center; /* Center the button within the form */
+    margin-top: 20px; /* Top margin for the button */
+    padding: 10px 20px; /* Padding for the button */
+  }
+  

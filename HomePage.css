@@ -1,0 +1,59 @@
+/* Styles for the main content area */
+.homepage-background {
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/011/811/863/large/casey-chretien-chesswallpaper-final.jpg?1531520903'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90.7vh; /* Ensures the background covers the full viewport height */
+    width: 100vw; /* Ensures the background covers the full viewport width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 64px;  */
+  }
+  
+  .homepage-background h1 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .logbutton {
+    width: fit-content;
+    color: white;
+    background-color: #030303;
+    border: none;
+    /* height: 20px; */
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    gap: 10px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  .signbutton {
+    width: fit-content;
+    color: white;
+    background-color: #000000;
+    border: none;
+    /* height: 20px; */
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    gap: 10px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+
+  }
